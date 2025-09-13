@@ -33,3 +33,24 @@ console.log("p && q:", p && q); // AND → false
 console.log("p || q:", p || q); // OR  → true
 console.log("!p:", !p);         // NOT → false
 console.log("!q:", !q);         // NOT → true
+
+// Assignment operators
+let num = 10;
+
+num += 5;  // num = num + 5
+console.log("After += :", num);
+
+num -= 3;  // num = num - 3
+console.log("After -= :", num);
+
+num *= 2;  // num = num * 2
+console.log("After *= :", num);
+
+num /= 4;  // num = num / 4
+console.log("After /= :", num);
+
+num %= 3;  // num = num % 3
+console.log("After %= :", num);
+
+num **= 2; // num = num ** 2
+console.log("After **= :", num);
