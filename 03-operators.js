@@ -24,3 +24,12 @@ console.log("a > 3:", a > 3);     // true
 console.log("a < 3:", a < 3);     // false
 console.log("a >= 5:", a >= 5);   // true
 console.log("a <= 5:", a <= 5);   // true
+
+// Logical operators
+let p = true;
+let q = false;
+
+console.log("p && q:", p && q); // AND → false
+console.log("p || q:", p || q); // OR  → true
+console.log("!p:", !p);         // NOT → false
+console.log("!q:", !q);         // NOT → true
